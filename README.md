@@ -6,7 +6,7 @@ referenced from his paper and
 
 ## Usage Guide
 1. No `npm install` necessary! All in native JS! 
-2. Modify test.js values `S`, `K`, `N`, and `P` (if you dare) with desired values.
+2. Modify test.js values `S`, `N`, and `P` (if you dare) with desired values.
 3. Run `node test.js`, and it will reconstruct your secret!
 4. Most importantly: have fun. I sure did! 
 

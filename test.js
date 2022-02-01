@@ -2,9 +2,9 @@ const Shamir = require('./sss.js');
 const sss = new Shamir();
 
 const S = 1234; // secret
-const N = 6; // parts to divide secret into
-const K = 3; // subset of parts sufficient to recover secret; K <= N
-const P = 2 ** 127 - 1; // 12th Mersenne Prime; P > S > N
+const N = 12; // parts to divide secret into
+const K = (N-1) - Math.floor(Math.random()*N/2); // random subset of parts sufficient to recover secret
+const P = 2 ** 127 - 1; // 12th Mersenne Prime; P>S>N
 
 // forming the polynomial of degree (K-1):
 let coeff = [S];
