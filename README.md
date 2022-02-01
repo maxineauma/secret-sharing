@@ -11,4 +11,4 @@ referenced from his paper and
 4. Most importantly: have fun. I sure did! 
 
 ## Limitations
-1. `N` (or `K`, for that matter) has a very specific and unspecified value. Anything above will be insufficient to return the secret.
+1. `N` has a very specific and unspecified limit. Anything above will be insufficient to return the secret.
