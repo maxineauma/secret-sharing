@@ -10,3 +10,5 @@ referenced from his paper and
 3. Run `node test.js`, and it will reconstruct your secret!
 4. Most importantly: have fun. I sure did! 
 
+## Limitations
+1. `N` (or `K`, for that matter) has a very specific and unspecified value. Anything above will be insufficient to return the secret.
